@@ -5,7 +5,7 @@ public class Fraction implements Comparable<Fraction>
     private int num;
     private int denom;
 
-    private Fraction(int num, int denom)
+    public Fraction(int num, int denom)
     {
         this.num=num;
         this.denom=denom;
