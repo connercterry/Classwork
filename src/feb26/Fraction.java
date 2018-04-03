@@ -33,12 +33,12 @@ public class Fraction implements Comparable<Fraction>
     }
 
     private void simplify()
-    {
+     {
 
-    }
+     }
 
     public String toString()
-    {
+     {
         return num + "/" + denom;
-    }
+     }
 }
